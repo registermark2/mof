@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KML</title>
+    <!-- <link rel="stylesheet" href="node_modules/ol/ol.css"> -->
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0;
+        }
+        .map {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" href="ol.css">
+    <script src="ol.js"></script>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <button style='position: absolute; bottom: 10px; right: 0;' onclick="getLocation()">定位</button>
+    <script>
+
+        const vector = new ol.layer.Vector({
+            source: new ol.source.Vector({
+                url: 'data.kml',
+                format: new ol.format.KML({extractStyles: false}),
+            }),
+            style: new ol.style.Style({
+                image: new ol.style.Icon({
+                    anchor: [0.5, 1],
+                    anchorXUnits: 'fraction',
+                    anchorYUnits: 'fraction',
+                    src: 'location-pin.png',
+                    scale: 0.2
+                }),
+            })
+        });
+
+        let layer = new ol.layer.Tile({
+            source: new ol.source.XYZ({
+            url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+            })
+        })
+
+
+        const map = new ol.Map({
+            layers: [ layer, vector],
+            target: document.getElementById('map'),
+            view: new ol.View({
+                center: ol.proj.fromLonLat([120.25891905574741,23.134767709274797]),
+                projection: 'EPSG:3857',
+                zoom: 10,
+            }),
+            controls: []
+        });
+
+        function getLocation(){
+            console.log('1')
+            navigator.geolocation.getCurrentPosition(function showPosition(position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude +
+                    "<br>Longitude: " + position.coords.longitude;
+            });
+        }
+
+    </script>
+</body>
+
+</html>

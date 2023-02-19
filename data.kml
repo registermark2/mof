@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>有害物一月</name>
+    <description/>
+    <Style id="icon-1653-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>(未命名的圖層)</name>
+      <Placemark>
+        <name>1.0</name>
+        <description><![CDATA[行政區: 南區<br>地段: 同安段<br>地號: 35-1<br>經度: 22.922279<br>緯度: 120.190521]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>南區</value>
+          </Data>
+          <Data name="地段">
+            <value>同安段</value>
+          </Data>
+          <Data name="地號">
+            <value>35-1</value>
+          </Data>
+          <Data name="經度">
+            <value>22.922279</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.190521</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.190521,22.922279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 豐德段<br>地號: 613-0<br>經度: 23.083520<br>緯度: 120.359033]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>豐德段</value>
+          </Data>
+          <Data name="地號">
+            <value>613-0</value>
+          </Data>
+          <Data name="經度">
+            <value>23.083520</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.359033</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.359033,23.08352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 豐德段<br>地號: 376-1<br>經度: 23.084178<br>緯度: 120.366793]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>豐德段</value>
+          </Data>
+          <Data name="地號">
+            <value>376-1</value>
+          </Data>
+          <Data name="經度">
+            <value>23.084178</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.366793</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.366793,23.084178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 山上段<br>地號: 1134-20<br>經度: 23.090714<br>緯度: 120.364602]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>山上段</value>
+          </Data>
+          <Data name="地號">
+            <value>1134-20</value>
+          </Data>
+          <Data name="經度">
+            <value>23.090714</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.364602</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.364602,23.090714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 山上段<br>地號: 1134-21<br>經度: 23.090549<br>緯度: 120.364111]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>山上段</value>
+          </Data>
+          <Data name="地號">
+            <value>1134-21</value>
+          </Data>
+          <Data name="經度">
+            <value>23.090549</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.364111</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.364111,23.090549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 山上段<br>地號: 1134-22<br>經度: 23.090360<br>緯度: 120.364547]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>山上段</value>
+          </Data>
+          <Data name="地號">
+            <value>1134-22</value>
+          </Data>
+          <Data name="經度">
+            <value>23.090360</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.364547</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.364547,23.09036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5.0</name>
+        <description><![CDATA[行政區: 後壁區<br>地段: 嘉安段<br>地號: 564-1<br>經度: 23.395672<br>緯度: 120.377786]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>後壁區</value>
+          </Data>
+          <Data name="地段">
+            <value>嘉安段</value>
+          </Data>
+          <Data name="地號">
+            <value>564-1</value>
+          </Data>
+          <Data name="經度">
+            <value>23.395672</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.377786</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.377786,23.395672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6.0</name>
+        <description><![CDATA[行政區: 白河區<br>地段: 六重溪段<br>地號: 149-1<br>經度: 23.302445<br>緯度: 120.478135]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>白河區</value>
+          </Data>
+          <Data name="地段">
+            <value>六重溪段</value>
+          </Data>
+          <Data name="地號">
+            <value>149-1</value>
+          </Data>
+          <Data name="經度">
+            <value>23.302445</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.478135</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.478135,23.302445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7.0</name>
+        <description><![CDATA[行政區: 中西區<br>地段: 頂每段<br>地號: 971<br>經度: 23.001148<br>緯度: 120.181703]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>中西區</value>
+          </Data>
+          <Data name="地段">
+            <value>頂每段</value>
+          </Data>
+          <Data name="地號">
+            <value>971</value>
+          </Data>
+          <Data name="經度">
+            <value>23.001148</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.181703</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.181703,23.001148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8.0</name>
+        <description><![CDATA[行政區: 白河區<br>地段: 河東段<br>地號: 1063-0<br>經度: 23.342287<br>緯度: 120.420237]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>白河區</value>
+          </Data>
+          <Data name="地段">
+            <value>河東段</value>
+          </Data>
+          <Data name="地號">
+            <value>1063-0</value>
+          </Data>
+          <Data name="經度">
+            <value>23.342287</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.420237</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.420237,23.342287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11.0</name>
+        <description><![CDATA[行政區: 山上區<br>地段: 山上段<br>地號: 1130-36<br>經度: 23.085086<br>緯度: 120.367121]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>山上區</value>
+          </Data>
+          <Data name="地段">
+            <value>山上段</value>
+          </Data>
+          <Data name="地號">
+            <value>1130-36</value>
+          </Data>
+          <Data name="經度">
+            <value>23.085086</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.367121</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.367121,23.085086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12.0</name>
+        <description><![CDATA[行政區: 中西區<br>地段: 南門段<br>地號: 1010<br>經度: 22.989036<br>緯度: 120.198307]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>中西區</value>
+          </Data>
+          <Data name="地段">
+            <value>南門段</value>
+          </Data>
+          <Data name="地號">
+            <value>1010</value>
+          </Data>
+          <Data name="經度">
+            <value>22.989036</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.198307</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.198307,22.989036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13.0</name>
+        <description><![CDATA[行政區: 安南區<br>地段: 安中段<br>地號: 587<br>經度: 23.043788<br>緯度: 120.191054]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>安南區</value>
+          </Data>
+          <Data name="地段">
+            <value>安中段</value>
+          </Data>
+          <Data name="地號">
+            <value>587</value>
+          </Data>
+          <Data name="經度">
+            <value>23.043788</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.191054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.191054,23.043788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14.0</name>
+        <description><![CDATA[行政區: 南區<br>地段: 興農段<br>地號: 654<br>經度: 22.928051<br>緯度: 120.193824]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>南區</value>
+          </Data>
+          <Data name="地段">
+            <value>興農段</value>
+          </Data>
+          <Data name="地號">
+            <value>654</value>
+          </Data>
+          <Data name="經度">
+            <value>22.928051</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.193824</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.193824,22.928051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15.0</name>
+        <description><![CDATA[行政區: 南區<br>地段: 興農段<br>地號: 656<br>經度: 22.927932<br>緯度: 120.193801]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>南區</value>
+          </Data>
+          <Data name="地段">
+            <value>興農段</value>
+          </Data>
+          <Data name="地號">
+            <value>656</value>
+          </Data>
+          <Data name="經度">
+            <value>22.927932</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.193801</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.193801,22.927932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16.0</name>
+        <description><![CDATA[行政區: 白河區<br>地段: 蓮潭段一小段<br>地號: 1624<br>經度: 23.397836<br>緯度: 120.391133]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>白河區</value>
+          </Data>
+          <Data name="地段">
+            <value>蓮潭段一小段</value>
+          </Data>
+          <Data name="地號">
+            <value>1624</value>
+          </Data>
+          <Data name="經度">
+            <value>23.397836</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.391133</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.391133,23.397836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17.0</name>
+        <description><![CDATA[行政區: 新化區<br>地段: 中興段<br>地號: 572<br>經度: 23.010721<br>緯度: 120.373993]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>新化區</value>
+          </Data>
+          <Data name="地段">
+            <value>中興段</value>
+          </Data>
+          <Data name="地號">
+            <value>572</value>
+          </Data>
+          <Data name="經度">
+            <value>23.010721</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.373993</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.373993,23.010721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18.0</name>
+        <description><![CDATA[行政區: 官田區<br>地段: 鎮田段<br>地號: 204<br>經度: 23.195384<br>緯度: 120.325883]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>官田區</value>
+          </Data>
+          <Data name="地段">
+            <value>鎮田段</value>
+          </Data>
+          <Data name="地號">
+            <value>204</value>
+          </Data>
+          <Data name="經度">
+            <value>23.195384</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.325883</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.325883,23.195384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19.0</name>
+        <description><![CDATA[行政區: 官田區<br>地段: 隆東段<br>地號: 627<br>經度: 23.196135<br>緯度: 120.323612]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>官田區</value>
+          </Data>
+          <Data name="地段">
+            <value>隆東段</value>
+          </Data>
+          <Data name="地號">
+            <value>627</value>
+          </Data>
+          <Data name="經度">
+            <value>23.196135</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.323612</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.323612,23.196135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20.0</name>
+        <description><![CDATA[行政區: 學甲區<br>地段: 興業段<br>地號: 804-2<br>經度: 23.238920<br>緯度: 120.189985]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>學甲區</value>
+          </Data>
+          <Data name="地段">
+            <value>興業段</value>
+          </Data>
+          <Data name="地號">
+            <value>804-2</value>
+          </Data>
+          <Data name="經度">
+            <value>23.238920</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.189985</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.189985,23.23892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1110<br>經度: 22.941836<br>緯度: 120.336210]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1110</value>
+          </Data>
+          <Data name="經度">
+            <value>22.941836</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.336210</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.33621,22.941836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1114-1<br>經度: 22.941808<br>緯度: 120.337010]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1114-1</value>
+          </Data>
+          <Data name="經度">
+            <value>22.941808</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.337010</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.33701,22.941808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1119<br>經度: 22.942523<br>緯度: 120.336651]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1119</value>
+          </Data>
+          <Data name="經度">
+            <value>22.942523</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.336651</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.336651,22.942523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1129<br>經度: 22.943313<br>緯度: 120.336444]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1129</value>
+          </Data>
+          <Data name="經度">
+            <value>22.943313</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.336444</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.336444,22.943313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>25.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1129-1<br>經度: 22.943156<br>緯度: 120.335776]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1129-1</value>
+          </Data>
+          <Data name="經度">
+            <value>22.943156</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.335776</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.335776,22.943156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>26.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1129-3<br>經度: 22.942619<br>緯度: 120.335822]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1129-3</value>
+          </Data>
+          <Data name="經度">
+            <value>22.942619</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.335822</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.335822,22.942619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>27.0</name>
+        <description><![CDATA[行政區: 關廟區<br>地段: 深坑子<br>地號: 1129-4<br>經度: 22.942472<br>緯度: 120.336159]]></description>
+        <styleUrl>#icon-1653-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="行政區">
+            <value>關廟區</value>
+          </Data>
+          <Data name="地段">
+            <value>深坑子</value>
+          </Data>
+          <Data name="地號">
+            <value>1129-4</value>
+          </Data>
+          <Data name="經度">
+            <value>22.942472</value>
+          </Data>
+          <Data name="緯度">
+            <value>120.336159</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.336159,22.942472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
