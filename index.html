@@ -36,7 +36,7 @@
 
 <body>
     <div id="map" class="map"></div>
-    <button onclick="getLocation()"><i class="fa-solid fa-location-crosshairs"></i></button>
+    <button onclick="moveToLoc()"><i class="fa-solid fa-location-crosshairs"></i></button>
     <script>
         // const building = new ol.layer.Tile({
         //     source: new ol.source.XYZ({
@@ -134,6 +134,7 @@
                         color: '#fff',
                         width: 2,
                     }),
+                    scale: 3
                 }),
             })
         );
@@ -151,6 +152,10 @@
                 features: [positionFeature],
             }),
         });
+
+        function moveToLoc(){
+            map.getView().fit(positionFeature.getGeometry().getExtent());
+        }
 
     </script>
 </body>
