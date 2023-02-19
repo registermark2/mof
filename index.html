@@ -46,7 +46,6 @@
         //     maxZoom:20
         // })
 
-
         const vector = new ol.layer.Vector({
             source: new ol.source.Vector({
                 url: 'data.kml',
@@ -77,7 +76,7 @@
                 projection: 'EPSG:3857',
                 zoom: 12,
                 maxZoom: 19,
-                minZoom: 10
+                // minZoom: 10
             }),
             controls: []
         });
@@ -106,6 +105,52 @@
                     "<br>Longitude: " + position.coords.longitude;
             });
         }
+
+
+        const geolocation = new ol.Geolocation({
+            // enableHighAccuracy must be set to true to have the heading value.
+            trackingOptions: {
+                enableHighAccuracy: true,
+            },
+            projection: map.getView().getProjection(),
+        });
+
+        geolocation.setTracking(true);
+
+        // const accuracyFeature = new ol.Feature();
+        // geolocation.on('change:accuracyGeometry', function () {
+        //     accuracyFeature.setGeometry(geolocation.getAccuracyGeometry());
+        // });
+
+        const positionFeature = new ol.Feature();
+        positionFeature.setStyle(
+            new ol.style.Style({
+                image: new ol.style.Circle({
+                    radius: 6,
+                    fill: new ol.style.Fill({
+                        color: '#3399CC',
+                    }),
+                    stroke: new ol.style.Stroke({
+                        color: '#fff',
+                        width: 2,
+                    }),
+                }),
+            })
+        );
+
+        geolocation.on('change:position', function () {
+            const coordinates = geolocation.getPosition();
+            positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
+        });
+
+        // map.addLayer(geolocation)
+
+        new ol.layer.Vector({
+            map: map,
+            source: new ol.source.Vector({
+                features: [positionFeature],
+            }),
+        });
 
     </script>
 </body>
