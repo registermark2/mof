@@ -3,31 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>KML</title>
+    <title>mof</title>
+    <!-- <link rel="apple-touch-icon" href="/example.png"> -->
     <!-- <link rel="stylesheet" href="node_modules/ol/ol.css"> -->
     <style>
-        html,body{
+        html,
+        body {
             padding: 0;
             margin: 0;
         }
+
         .map {
             width: 100vw;
             height: 100vh;
         }
+
+        button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 30px;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 0px 5px 15px #1d1d1db8;
+        }
     </style>
     <link rel="stylesheet" href="ol.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="ol.js"></script>
 </head>
 
 <body>
     <div id="map" class="map"></div>
-    <button style='position: absolute; bottom: 10px; right: 0;' onclick="getLocation()">定位</button>
+    <button onclick="getLocation()"><i class="fa-solid fa-location-crosshairs"></i></button>
     <script>
 
         const vector = new ol.layer.Vector({
             source: new ol.source.Vector({
                 url: 'data.kml',
-                format: new ol.format.KML({extractStyles: false}),
+                format: new ol.format.KML({ extractStyles: false }),
             }),
             style: new ol.style.Style({
                 image: new ol.style.Icon({
@@ -42,23 +57,39 @@
 
         let layer = new ol.layer.Tile({
             source: new ol.source.XYZ({
-            url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+                url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         })
 
-
         const map = new ol.Map({
-            layers: [ layer, vector],
+            layers: [layer, vector],
             target: document.getElementById('map'),
             view: new ol.View({
-                center: ol.proj.fromLonLat([120.25891905574741,23.134767709274797]),
+                center: ol.proj.fromLonLat([120.25891905574741, 23.134767709274797]),
                 projection: 'EPSG:3857',
                 zoom: 10,
             }),
             controls: []
         });
 
-        function getLocation(){
+        const element = document.getElementById('popup');
+
+        const popup = new ol.Overlay({
+            element: element,
+            positioning: 'bottom-center',
+            stopEvent: false,
+        });
+        map.addOverlay(popup);
+
+        // change mouse cursor when over marker
+        map.on('pointermove', function (e) {
+            const pixel = map.getEventPixel(e.originalEvent);
+            const hit = map.hasFeatureAtPixel(pixel);
+            map.getTarget().style.cursor = hit ? 'pointer' : '';
+        });
+
+
+        function getLocation() {
             console.log('1')
             navigator.geolocation.getCurrentPosition(function showPosition(position) {
                 x.innerHTML = "Latitude: " + position.coords.latitude +
