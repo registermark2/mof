@@ -38,6 +38,14 @@
     <div id="map" class="map"></div>
     <button onclick="getLocation()"><i class="fa-solid fa-location-crosshairs"></i></button>
     <script>
+        // const building = new ol.layer.Tile({
+        //     source: new ol.source.XYZ({
+        //         url: 'http://172.104.189.13/static/building/{z}/{x}/{y}.png'
+        //     }),
+        //     minZoom:13,
+        //     maxZoom:20
+        // })
+
 
         const vector = new ol.layer.Vector({
             source: new ol.source.Vector({
@@ -57,7 +65,7 @@
 
         let layer = new ol.layer.Tile({
             source: new ol.source.XYZ({
-                url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+                url: 'https://wmts.nlsc.gov.tw/wmts/EMAP5/default/EPSG:3857/{z}/{y}/{x}'
             })
         })
 
@@ -68,6 +76,8 @@
                 center: ol.proj.fromLonLat([120.25891905574741, 23.134767709274797]),
                 projection: 'EPSG:3857',
                 zoom: 12,
+                maxZoom: 19,
+                minZoom: 10
             }),
             controls: []
         });
