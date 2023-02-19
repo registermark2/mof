@@ -75,8 +75,9 @@
                 center: ol.proj.fromLonLat([120.25891905574741, 23.134767709274797]),
                 projection: 'EPSG:3857',
                 zoom: 12,
-                maxZoom: 19,
+                // maxZoom: 19,
                 // minZoom: 10
+                enableRotation: false
             }),
             controls: []
         });
@@ -98,13 +99,13 @@
         });
 
 
-        function getLocation() {
-            console.log('1')
-            navigator.geolocation.getCurrentPosition(function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude +
-                    "<br>Longitude: " + position.coords.longitude;
-            });
-        }
+        // function getLocation() {
+        //     console.log('1')
+        //     navigator.geolocation.getCurrentPosition(function showPosition(position) {
+        //         x.innerHTML = "Latitude: " + position.coords.latitude +
+        //             "<br>Longitude: " + position.coords.longitude;
+        //     });
+        // }
 
 
         const geolocation = new ol.Geolocation({
